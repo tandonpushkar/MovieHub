@@ -1,8 +1,6 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import Navigator from './navigation/navigator';
 import {Provider} from 'react-redux';
-
-import Toast from 'react-native-toast-message';
 import {persistStore} from 'redux-persist';
 import {PersistGate} from 'redux-persist/integration/react';
 import {store} from './redux/store';
@@ -15,11 +13,9 @@ const App = () => {
       <Provider store={store}>
         <PersistGate persistor={persistedStore} loading={null}>
           <Navigator />
-          <Toast />
         </PersistGate>
       </Provider>
     </GestureHandlerRootView>
   );
 };
-//export default withCodePush(App);
 export default App;

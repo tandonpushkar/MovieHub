@@ -1,69 +1,54 @@
-import { StyleSheet } from "react-native";
-import { colors, fonts } from "@theme";
+import {StyleSheet} from 'react-native';
+import {colors, fonts} from '@theme';
 
 export const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: colors.appBackground,
-        paddingHorizontal:15,
-        paddingVertical:15
-    },
-    title: {
-        fontSize: 24,
-        color: colors.black,
-        fontFamily: fonts.semiBold
-    },
-    subTitle: {
-        fontSize: 16,
-        color: colors.black
-    },
-    notSureContainer: {
-        backgroundColor: colors.white,
-        borderRadius: 10,
-        padding: 15,
-        marginVertical: 10
-    },
-    notSureTitle: {
-        fontSize: 18,
-        color: colors.black,
-        fontFamily: fonts.semiBold,
-    },
-    notSureSubTitle: {
-        fontSize: 12,
-        color: colors.black,
-        marginVertical: 2
-    },
-    expertsHeader: {
-        flexDirection: 'row',
-        justifyContent: 'space-between'
-    },
-    expertItem: {
-        padding: 10,
-        paddingVertical: 15,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: colors.white,
-        borderRadius: 10,
-        width: '47%',
-        marginRight: 18,
-        marginVertical: 10
-    },
-    expertName: {
-        fontSize: 14,
-        color: colors.black,
-        fontFamily: fonts.bold,
-        paddingTop: 10
-    },
-    connectButton: {
-       padding: 10,
-       paddingHorizontal: '25%',
-       backgroundColor: colors.primaryButton,
-       borderRadius: 20,
-       marginTop: 5
-    },
-    connectButtonText: {
-        fontSize: 12,
-        fontFamily: fonts.bold,
-        color: colors.white
-    }
+  search_btn_grd: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100%',
+    width: '100%',
+    alignSelf: 'flex-start',
+    borderRadius: 20,
+  },
+  search_btn_cnt: {
+    width: '20%',
+    height: '100%',
+  },
+  txt_inp: {
+    width: '80%',
+    fontSize: 14,
+    fontFamily: fonts.medium,
+    color: '#fff',
+  },
+  txt_input_cnt: {
+    paddingLeft: 16,
+    borderRadius: 20,
+    height: 40,
+    marginHorizontal: 16,
+    backgroundColor: '#687494',
+    flexDirection: 'row',
+  },
+  search_cnt: {
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+  },
+  container: {
+    backgroundColor: colors.appBackground,
+  },
+  title: {
+    fontSize: 20,
+    color: colors.white,
+    fontFamily: fonts.medium,
+  },
+  buttonText: {
+    fontSize: 12,
+    fontFamily: fonts.bold,
+    color: '#ffffff',
+    backgroundColor: 'transparent',
+  },
+  loader_cnt: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '90%',
+  },
 });

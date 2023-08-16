@@ -3,14 +3,14 @@ import {persistReducer} from 'redux-persist';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 // Slices
 import rootReducer from '../reducers';
-import {REDUCERS} from '../constants';
+import {reducers} from '@constants';
 
 // const logger: any = [];
 const persistConfig = {
   debounce: 1000,
   key: 'root',
   storage: AsyncStorage,
-  whitelist: [REDUCERS.ROOT],
+  whitelist: [reducers.ROOT],
 };
 
 // if (__DEV__) {

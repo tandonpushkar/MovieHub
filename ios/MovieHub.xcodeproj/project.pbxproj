@@ -12,8 +12,13 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4F7233D4A58645C3B33321C5 /* Baloo2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B39D9558CEC40498D77C573 /* Baloo2-Medium.ttf */; };
+		6A534E0C5F384979AF14EB6F /* Baloo2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DC742E1495242A48BC32073 /* Baloo2-ExtraBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-MovieHub-MovieHubTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MovieHub-MovieHubTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A1DEE91E5EE44909A095414D /* Baloo2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3876924CA4FE49A5927A5E97 /* Baloo2-SemiBold.ttf */; };
+		B0EE17603C4149629526F530 /* Baloo2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90673E8F953540E684101378 /* Baloo2-Regular.ttf */; };
+		F22905FA5AD44F57BB3B01A4 /* Baloo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C05559F3BC6D4BA09AD61FC3 /* Baloo2-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +42,17 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MovieHub/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MovieHub/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MovieHub-MovieHubTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieHub-MovieHubTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3876924CA4FE49A5927A5E97 /* Baloo2-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-SemiBold.ttf"; path = "../app/assets/fonts/Baloo2-SemiBold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-MovieHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieHub.debug.xcconfig"; path = "Target Support Files/Pods-MovieHub/Pods-MovieHub.debug.xcconfig"; sourceTree = "<group>"; };
+		4DC742E1495242A48BC32073 /* Baloo2-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-ExtraBold.ttf"; path = "../app/assets/fonts/Baloo2-ExtraBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MovieHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieHub.release.xcconfig"; path = "Target Support Files/Pods-MovieHub/Pods-MovieHub.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MovieHub-MovieHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieHub-MovieHubTests.debug.xcconfig"; path = "Target Support Files/Pods-MovieHub-MovieHubTests/Pods-MovieHub-MovieHubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-MovieHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieHub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MovieHub/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MovieHub-MovieHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieHub-MovieHubTests.release.xcconfig"; path = "Target Support Files/Pods-MovieHub-MovieHubTests/Pods-MovieHub-MovieHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		90673E8F953540E684101378 /* Baloo2-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-Regular.ttf"; path = "../app/assets/fonts/Baloo2-Regular.ttf"; sourceTree = "<group>"; };
+		9B39D9558CEC40498D77C573 /* Baloo2-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-Medium.ttf"; path = "../app/assets/fonts/Baloo2-Medium.ttf"; sourceTree = "<group>"; };
+		C05559F3BC6D4BA09AD61FC3 /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-Bold.ttf"; path = "../app/assets/fonts/Baloo2-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -122,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				967279B1B9CA46F7A2F68B0E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +146,19 @@
 				00E356EE1AD99517003FC87E /* MovieHubTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		967279B1B9CA46F7A2F68B0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C05559F3BC6D4BA09AD61FC3 /* Baloo2-Bold.ttf */,
+				4DC742E1495242A48BC32073 /* Baloo2-ExtraBold.ttf */,
+				9B39D9558CEC40498D77C573 /* Baloo2-Medium.ttf */,
+				90673E8F953540E684101378 /* Baloo2-Regular.ttf */,
+				3876924CA4FE49A5927A5E97 /* Baloo2-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +268,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F22905FA5AD44F57BB3B01A4 /* Baloo2-Bold.ttf in Resources */,
+				6A534E0C5F384979AF14EB6F /* Baloo2-ExtraBold.ttf in Resources */,
+				4F7233D4A58645C3B33321C5 /* Baloo2-Medium.ttf in Resources */,
+				B0EE17603C4149629526F530 /* Baloo2-Regular.ttf in Resources */,
+				A1DEE91E5EE44909A095414D /* Baloo2-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,4 @@
 export const reducers = {
-    ROOT: 'root',
-  };
-  
+  ROOT: 'root',
+  FETCH_MOVIE: 'fetch_movie',
+};

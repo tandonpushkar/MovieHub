@@ -1,6 +1,6 @@
 export const fonts = {
-    regular: 'sans-serif',
-    medium: 'sans-serif-medium',
-    semiBold: 'sans-serif-medium',
-    bold: 'sans-serif-medium'
-}
+  regular: 'Baloo2-Regular',
+  medium: 'Baloo2-Medium',
+  semiBold: 'Baloo2-SemiBold',
+  bold: 'Baloo2-Bold',
+};

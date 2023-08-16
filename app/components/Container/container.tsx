@@ -27,10 +27,10 @@ export const Container = (props: Props) => {
   return (
     <SafeAreaProvider>
       <CustomStatusBar
-        barStyle={'dark-content'}
-        // backgroundColor={
-        //   props.backgroundColor ? props.backgroundColor : COLORS.BRAND2
-        // }
+        barStyle={'light-content'}
+        backgroundColor={
+          props.backgroundColor ? props.backgroundColor : colors.white
+        }
       />
       <SafeAreaView
         edges={['left', 'right', 'bottom']}

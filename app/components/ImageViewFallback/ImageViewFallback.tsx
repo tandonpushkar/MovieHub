@@ -4,8 +4,12 @@ import ProgressiveFastImage from '@freakycoder/react-native-progressive-fast-ima
 export const ImageViewFallback: any = ({source, ...props}: any) => {
   return (
     <ProgressiveFastImage
-      //thumbnailSource={{uri: getImageUrl(IMAGE_URL_ENUMS.FALLBACK_IMG)}}
-      //errorSource={{uri: getImageUrl(IMAGE_URL_ENUMS.FALLBACK_IMG)}}
+      thumbnailSource={{
+        uri: 'https://png.pngtree.com/png-vector/20190820/ourmid/pngtree-no-image-vector-illustration-isolated-png-image_1694547.jpg',
+      }}
+      errorSource={{
+        uri: 'https://png.pngtree.com/png-vector/20190820/ourmid/pngtree-no-image-vector-illustration-isolated-png-image_1694547.jpg',
+      }}
       source={source}
       {...(props as any)}
     />
