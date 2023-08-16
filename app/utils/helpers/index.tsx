@@ -1,5 +1,8 @@
 import {Dimensions, PixelRatio, Platform} from 'react-native';
 
+export const removeClippedSubviews = Platform.OS === 'ios' ? false : true;
+export const KeyExtractor: any = (item: any, index: number) =>
+  'key' + index?.toString();
 export const getRandomInt = (max: any) => {
   return Math.floor(Math.random() * max);
 };

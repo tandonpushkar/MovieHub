@@ -3,6 +3,7 @@ import {ActivityIndicator, View} from 'react-native';
 import {CustomText, PosterSnippet} from '@components';
 import {FlashList} from '@shopify/flash-list';
 import {styles} from './movie-list.styles';
+import {KeyExtractor, removeClippedSubviews} from '@utils';
 
 export const MovieList: any = memo(
   ({
@@ -31,6 +32,11 @@ export const MovieList: any = memo(
         </View>
         <View style={styles.list_top}>
           <FlashList
+            getItemType={(item: any) => {
+              return item?.id;
+            }}
+            removeClippedSubviews={removeClippedSubviews}
+            keyExtractor={KeyExtractor}
             onEndReachedThreshold={0.1}
             ListFooterComponent={onEndLoad ? ListFooterComponent : null}
             onEndReached={onEndReached}
