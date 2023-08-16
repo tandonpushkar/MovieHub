@@ -9,8 +9,15 @@ import LinearGradient from 'react-native-linear-gradient';
 import moment from 'moment';
 import {styles} from './poster-snippet.styles';
 import {IMAGE_BASE_URL} from '@utils';
+import {useNavigation} from '@react-navigation/native';
+import {ScreenNames} from '@constants';
+import {colors} from '@theme';
 
 export const PosterSnippet: any = memo(({item}: any) => {
+  const navigation: any = useNavigation();
+  const onPressViewDetail = () => {
+    navigation.navigate(ScreenNames.SINGLE_MOVIE, {movieItem: item});
+  };
   return (
     <View style={styles.cnt_1}>
       <View style={styles.cnt_2}>
@@ -43,11 +50,11 @@ export const PosterSnippet: any = memo(({item}: any) => {
           </CustomText>
         </View>
 
-        <CustomTouchableOpacity>
+        <CustomTouchableOpacity onPress={onPressViewDetail}>
           <LinearGradient
             start={{x: 0, y: 0}}
             end={{x: 1, y: 0}}
-            colors={['#74104F', '#BF0479', '#C374FE']}
+            colors={[colors.darkRed, colors.lightRed, colors.purple]}
             style={styles.linearGradient}>
             <CustomText style={styles.buttonText}>View Details</CustomText>
           </LinearGradient>

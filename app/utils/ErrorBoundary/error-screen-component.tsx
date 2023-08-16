@@ -60,7 +60,7 @@ export const ErrorScreenComponent = ({error, resetError, statusCode}: any) => {
               marginTop: 16,
               padding: 12,
               borderRadius: 5,
-              backgroundColor: colors.BRAND,
+              backgroundColor: colors.mediumGray,
             }}
             onPress={resetError}
             activeOpacity={0.2}>

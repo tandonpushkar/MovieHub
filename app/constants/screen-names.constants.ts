@@ -3,11 +3,13 @@ import {fontToDp, heightToDp} from '@utils';
 
 export type ScreenTypes = {
   HOME: string;
-  Search: string;
+  SEARCH: string;
+  SINGLE_MOVIE: string;
 };
 export const ScreenNames: ScreenTypes = {
   HOME: 'Home',
-  Search: 'Search',
+  SEARCH: 'Search',
+  SINGLE_MOVIE: 'SingleMovie',
 };
 
 export const screenOption: any = {

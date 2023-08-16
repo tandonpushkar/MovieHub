@@ -33,7 +33,7 @@ export const HomeScreen: any = memo((props: HomeScreenProps) => {
   }, []);
 
   const onPressSearchButton = () => {
-    navigation.navigate(ScreenNames.Search, {searchText});
+    navigation.navigate(ScreenNames.SEARCH, {searchText});
   };
 
   return (
@@ -57,7 +57,7 @@ export const HomeScreen: any = memo((props: HomeScreenProps) => {
           <LinearGradient
             start={{x: 0, y: 0}}
             end={{x: 1, y: 0}}
-            colors={['#74104F', '#BF0479']}
+            colors={[colors.darkRed, colors.lightRed]}
             style={styles.search_btn_grd}>
             <CustomText style={styles.buttonText}>Search</CustomText>
           </LinearGradient>
@@ -65,7 +65,7 @@ export const HomeScreen: any = memo((props: HomeScreenProps) => {
       </View>
       {loading === 'idle' || loading === 'pending' ? (
         <View style={styles.loader_cnt}>
-          <ActivityIndicator color={'#BF0479'} size={'large'} />
+          <ActivityIndicator color={colors.lightRed} size={'large'} />
         </View>
       ) : (
         <MovieList movieData={popularMovies?.results} />

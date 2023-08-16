@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
   txt_2: {
     fontFamily: fonts.medium,
     fontSize: 14,
-    color: '#687494',
+    color: colors.mediumGray,
   },
   txt_1: {
     lineHeight: 22,

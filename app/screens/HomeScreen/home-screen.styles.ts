@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
     borderRadius: 20,
     height: 40,
     marginHorizontal: 16,
-    backgroundColor: '#687494',
+    backgroundColor: colors.mediumGray,
     flexDirection: 'row',
   },
   search_cnt: {

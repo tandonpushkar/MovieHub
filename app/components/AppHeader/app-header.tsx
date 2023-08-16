@@ -14,16 +14,16 @@ export const AppHeader = (props: AppHeaderProps) => {
   const {title} = props;
   const navigation = useNavigation();
   return (
-    <View style={styles.container}>
-      <CustomTouchableOpacity onPress={() => navigation.goBack()}>
-        <ImageView
-          tintColor={'#fff'}
-          source={Icons.back}
-          style={{height: 20, width: 20}}
-          resizeMode="contain"
-        />
-      </CustomTouchableOpacity>
+    <CustomTouchableOpacity
+      onPress={() => navigation.goBack()}
+      style={styles.container}>
+      <ImageView
+        tintColor={'#fff'}
+        source={Icons.back}
+        style={{height: 20, width: 20}}
+        resizeMode="contain"
+      />
       <Text style={styles.title}>{title}</Text>
-    </View>
+    </CustomTouchableOpacity>
   );
 };

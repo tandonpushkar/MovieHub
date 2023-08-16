@@ -13,7 +13,7 @@ interface SearchScreenProps {
 
 export const SearchScreen: any = memo((props: SearchScreenProps) => {
   const dispatch = useDispatch<any>();
-  const {searchText = ''} = props?.route?.params;
+  let searchText = props?.route?.params?.searchText || '';
   const {searchResultsData, searchResults, loadingSearchData} = useSelector(
     selectFetchMovieSlice,
     shallowEqual,
